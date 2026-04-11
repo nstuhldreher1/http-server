@@ -7,7 +7,10 @@
 #include <arpa/inet.h>
 #include <netinet/in.h>
 
-
+/* 
+    showip - get IP addresses for a given hostname
+    using getaddrinfo() 
+*/
 
 int main (int argc, char *argv[]){
     struct addrinfo hints, *res, *p;
